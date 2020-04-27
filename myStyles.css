@@ -1,6 +1,15 @@
 myHeader {
-    color: black;
-    font-size: 3cm;
-    font-weight: 700;
-    text-align: center;
+  color: black;
+  font-size: 1cm;
+  font-weight: 700;
+  text-align: center;
+}
+
+#personal:hover {
+  color: red;
+}
+
+a.links {
+  color: green;
+  font-style: italic;
 }
