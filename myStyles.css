@@ -1,5 +1,4 @@
 myHeader {
-  color: black;
   font-size: 1cm;
   font-weight: 700;
   text-align: center;
@@ -12,4 +11,16 @@ myHeader {
 a.links {
   color: green;
   font-style: italic;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }

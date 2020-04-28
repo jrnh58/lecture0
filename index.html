@@ -6,12 +6,22 @@
         <link rel="stylesheet" href="myStyles.css">
     </head>
     <body>
+      <button type="button" class="btn btn-outline-dark" onclick="myFunction()">Dark Mode</button>
+      <div class="container">
       <myHeader>Welcome to My Web Page for Lecture0!</myHeader>
-
       <ul>
             <li> <a id=personal class="links" href="personalData.html">Personal Data!</a></li>
             <li> <a class="links" href="personalData.html">Personal Data!</a></li>
-            <li> <a class="links" href="personalData.html">Personal Data!</a></li>
+            <li> <a class="links" href="picture.html">Show a picture!</a></li>
+
       </ul>
+    </div>
+
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
     </body>
 </html>
