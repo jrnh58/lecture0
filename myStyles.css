@@ -1,3 +1,10 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
 myHeader {
   font-size: 1cm;
   font-weight: 700;
@@ -13,14 +20,50 @@ a.links {
   font-style: italic;
 }
 
+a.links:hover {
+  background-color: black;
+}
+
 .dark-mode {
   background-color: black;
   color: white;
 }
 
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
+
+table {
+    border: 1px solid black
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    color : white;
+    font-size: 20px;
+    width: 30%;
+}
+
+th {
+    background-color: black;
+}
+
+td {
+  background-color: darkgray;
+}
+
+.dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:-20px;
+    margin-left:50px;
+    width: 50%;
+}
+
+.dataContainer > div {
+    background-color: lightblue;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
 }
